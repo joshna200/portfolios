@@ -1,0 +1,139 @@
+header{
+    background-color: aliceblue;
+    color:black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 0.5rem,1rem;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color:brown;
+    border-radius: 5px;
+}
+.intro{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+.intro-img img{
+    height: auto;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+.section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.degree, .certifications, .extra ,.intermediate,.SSC{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.degree h2 {
+    color: #0066cc;
+}
+.intermediate h2 {
+    color:yellow;
+    font-style: arial;
+}
+.SSC h2 {
+    color: #0066cc;
+    font-style: oblique;
+}
+
+.institution {
+    font-style: italic;
+    color: #777;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.section1 {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: flex;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
